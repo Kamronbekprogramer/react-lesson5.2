@@ -1,0 +1,98 @@
+.works_section {
+    padding: 10px 0;
+    background: #fff;
+
+  }
+  
+  .works {
+    margin-top: 20px;
+  }
+  
+  .works h1 {
+    color: var(--Dark-Color, #21243d);
+    font-family: Heebo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 272.727% */
+  }
+  
+  .works .border {
+    margin-bottom: 16px;
+  }
+  
+  .works .border svg {
+    width: 100%;
+  }
+  
+  .works .work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  
+  .works .work .work-img img {
+    width: 246px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  }
+  
+  .works .work .work-text {
+    margin-left: 18px;
+  }
+  
+  .works .work .work-text h1 {
+    color: var(--Dark-Color, #21243d);
+    font-family: Heebo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+  
+  .works .work .work-text .dashboard {
+    display: flex;
+    gap: 26px;
+    margin-bottom: 12px;
+  }
+  
+  .works .work .work-text .dashboard .year {
+    width: 62px;
+    height: 25px;
+    text-align: center;
+    border-radius: 16px;
+    background: #142850;
+  }
+  
+  .works .work .work-text .dashboard .year p {
+    color: #fff;
+    font-family: Heebo;
+    margin-top: -17px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 333.333% */
+  }
+  
+  .works .work .work-text .dashboard p {
+    color: var(--Light, #8695a4);
+    font-family: Heebo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .works .work .work-text p {
+    color: var(--Dark-Color, #21243d);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+  

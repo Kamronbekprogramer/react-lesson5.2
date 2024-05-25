@@ -1,0 +1,52 @@
+.main_section {
+  background: #fff;
+}
+.main_inner_section {
+    display: flex;
+    padding-top: 120px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .main_text {
+    padding: 10px;
+  }
+  
+  .main_text h1 {
+    color: var(--Dark-Color, #21243d);
+    font-family: Heebo;
+    font-size: 44px;
+    padding-bottom: 30px;
+  }
+  
+  .main_text p {
+    color: var(--Dark-Color, #21243d);
+    font-family: Heebo;
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  
+  .main_text button {
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    background: var(--Primary, #ff6464);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: Heebo;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .main_text button:hover {
+    transition: ease-in;
+    border: 2px solid rgb(218, 78, 78);
+    background-color: transparent;
+    color: rgb(225, 76, 76);
+  }
+  

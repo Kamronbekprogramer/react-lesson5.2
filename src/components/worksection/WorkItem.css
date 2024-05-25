@@ -1,0 +1,71 @@
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  
+  .work .work-img img {
+    width: 246px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: lightgray 50% / cover no-repeat;
+  }
+  
+  .work .work-text {
+    margin-left: 18px;
+  }
+  
+  .work .work-text h1 {
+    color: var(--Dark-Color, #21243d);
+    font-family: Heebo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+  
+  .work .work-text .dashboard {
+    display: flex;
+    gap: 26px;
+    margin-bottom: 12px;
+  }
+  
+  .work .work-text .dashboard .year {
+    width: 62px;
+    height: 25px;
+    text-align: center;
+    border-radius: 16px;
+    background: #142850;
+  }
+  
+  .work .work-text .dashboard .year p {
+    color: #fff;
+    font-family: Heebo;
+    margin-top: -17px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 333.333% */
+  }
+  
+  .work .work-text .dashboard p {
+    color: var(--Light, #8695a4);
+    font-family: Heebo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .work .work-text p {
+    color: var(--Dark-Color, #21243d);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+  

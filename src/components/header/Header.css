@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    padding: 20px 0 20px 856px;
+    background: #fff;
+  }
+  
+  header ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  header ul a {
+    color: #000;
+    text-align: right;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  header ul a:hover {
+    color: rgb(231, 74, 74);
+  }
+  
